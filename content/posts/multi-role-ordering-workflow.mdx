@@ -1,0 +1,21 @@
+export const metadata = {
+  title: "Modelling a multi-role ordering workflow on the frontend",
+  tag: "Frontend",
+  date: "2026-11-02",
+  summary: "Statuses, roles and transitions in a large React app.",
+  draft: true,
+};
+
+[Intro: the ordering system and why its state is hard.]
+
+## Statuses and roles
+
+[How the workflow is modelled.]
+
+```ts
+type OrderStatus = "draft" | "submitted" | "approved" | "rejected";
+```
+
+## What worked
+
+[Patterns that held up as the team grew.]
